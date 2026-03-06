@@ -19,4 +19,6 @@ h = float(input("Enter height: "))
 system = input("Metric or Imperial? ").strip()
 
 result = calculate_bmi(w, h, system)
+
 print(f"Your BMI is: {result} ({get_category(result)})")
+# Modified for Version 2 Task
